@@ -1,0 +1,81 @@
+.sidebar{
+    grid-area: navbar;
+    background: #003B72;
+    /*height: 100vh;*/
+    color: #fff;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.logoCompany {
+    padding: 20px 0px 20px 20px;
+    margin: 0;
+    line-height: 15px;
+}
+
+.item {
+    position: relative;
+}
+
+.item a{
+    padding: 20px 0 20px 50px;
+    display: block;
+}
+
+.item a.active {
+    background-color: #fff;
+    border-left: 3px solid #7761FF;
+    color: #7761FF;
+}
+
+.item a.active svg path {
+    fill: #7761FF;
+}
+
+nav svg{
+    position: absolute;
+    left: 18px;
+}
+
+nav svg path {
+    fill: #fff;
+}
+
+.btnDefault {
+    background: #7761FF;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: block;
+}
+
+.bthRequest {
+    margin: 4px auto 0 auto;
+    display: block;
+    max-width: 150px;
+}
+
+.sidebarBottom {
+    padding: 0 0 16px 20px;
+}
+
+.sidebarBottom svg {
+    padding-right: 15px;
+}
+
+.logo {
+    padding-top: 15px;
+}
+
+.sidebarHelp {
+    display: flex;
+    align-items: center;
+}

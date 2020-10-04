@@ -1,0 +1,44 @@
+.header {
+    grid-area: header;
+    height: 55px;
+    background: #50CAFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    align-items: center;
+}
+
+.profileTitle {
+    font-size: 28px;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400 ;
+}
+
+.headerInfo {
+    display: flex;
+    flex: 0 0 14%;
+    align-items: center;
+}
+
+.item {
+    padding-right: 18px;
+}
+.profilePhoto {
+    padding: 2px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    position: relative;
+}
+
+.profilePhoto::after {
+    content: url("../../assets/images/dropdownMenu.svg");
+    position: absolute;
+    right: -25px;
+    top: 14px;
+}
+
+.profilePhotoImg {
+    border-radius: 50%;
+    vertical-align: middle;
+}
