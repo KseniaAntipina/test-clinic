@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "nameDoctor": "Малушко Т. Н.",
+      "branch": "Хирургия",
+      "clinic": {
+        "name": "СПБ ГБУЗ \"Городская поликлиника №25\", ",
+        "address": "пр. Солидарности, д. 1, к. 1, лит. А"
+      },
+      "date": {
+        "day of week": "Понедельник",
+        "number": "15.06.20",
+        "time": "15:30"
+      },
+      "photo": "https://sun9-53.userapi.com/7KfK-Y4MowlrKZp0t-w-wBmhCSYIvQM9oC3OwQ/7JYkzPfroGc.jpg",
+      "status": true
+    },
+    {
+      "nameDoctor": "Харьков В. С.",
+      "branch": "Терапевтическое отделение",
+      "clinic": {
+        "name": "СПБ ГБУЗ \"Городская поликлиника №25\", ",
+        "address": "пр. Солидарности, д. 1, к. 1, лит. А"
+      },
+      "date": {
+        "day of week": "Понедельник",
+        "number": "15.06.20",
+        "time": "18:30"
+      },
+      "photo": "https://sun9-37.userapi.com/0gGyrCXgKOAzMGzqtWtBlORprEycEWSeTn8xkA/GYEsqp02edU.jpg",
+      "status": true
+    }
+  ]
+}

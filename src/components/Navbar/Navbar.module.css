@@ -30,7 +30,7 @@
 }
 
 .item a.active {
-    background-color: #fff;
+    background: #fcfcfc;
     border-left: 3px solid #7761FF;
     color: #7761FF;
 }
