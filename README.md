@@ -1,5 +1,5 @@
-Start JSON Server:
-json-server --watch db.json
+Start JSON Server: <br>
+`json-server --watch appointments.json`
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
