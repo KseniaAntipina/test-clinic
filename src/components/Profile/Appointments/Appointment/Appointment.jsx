@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Appointment.module.css'
-import malushko from './../../../../assets/images/malushko.png'
+
 
 const Appointment = (props) => {
 

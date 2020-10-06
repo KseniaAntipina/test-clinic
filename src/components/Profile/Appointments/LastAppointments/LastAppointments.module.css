@@ -5,3 +5,19 @@
 .appointmentsTitle {
     padding-bottom: 18px;
 }
+
+.appointmentsAll {
+    flex: 0 1 auto;
+    align-self: center;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.appointmentsRow {
+    display: flex;
+}
+
+.appointmentsAllBtn {
+    color: #50CAFF;
+}

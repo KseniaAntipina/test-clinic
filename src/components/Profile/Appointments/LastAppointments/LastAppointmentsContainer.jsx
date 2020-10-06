@@ -12,12 +12,10 @@ class LastAppointmentsContainer extends React.Component {
     }
 
     componentDidMount() {
-
-        fetch("http://localhost:3000/items")
+        fetch("http://localhost:3000/items?_page=1&_limit=2")
             .then(res => res.json())
             .then(
                 (result) => {
-                    console.log(result)
                     this.setState({
                         items: result
                     });
@@ -26,13 +24,9 @@ class LastAppointmentsContainer extends React.Component {
     }
 
     render() {
-
         const {items} = this.state;
-        console.log(items)
         return (
-
             <LastAppointments items={items}/>
-
         );
     }
 }
