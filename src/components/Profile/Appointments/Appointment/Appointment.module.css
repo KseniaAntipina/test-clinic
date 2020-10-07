@@ -9,14 +9,6 @@ p {margin: 0;}
     display: block;
 }
 
-.appointments  {
-    display: flex;
-    flex: 0 1 970px;
-    margin-right: 20px;
-}
-
-
-
 .appointment {
     padding: 19px;
     margin-right: 20px;
@@ -26,6 +18,27 @@ p {margin: 0;}
     box-shadow: 0 4px 4px 2px rgba(0,0,0,0.25);
     border-radius: 5px;
     background: #fff;
+}
+
+.appointmentInAll {
+    margin-bottom: 15px;
+}
+
+.appointments  {
+    display: flex;
+    flex: 0 1 970px;
+    margin-right: 20px;
+}
+
+.appointmentsColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.appointmentsRow {
+    display: flex;
+    flex: 0 1 970px;
+    margin-right: 20px;
 }
 
 .date {padding-bottom: 8px;}

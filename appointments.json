@@ -42,7 +42,7 @@
         "number": "30.06.20",
         "time": "12:10"
       },
-      "photo": "https://sun9-37.userapi.com/0gGyrCXgKOAzMGzqtWtBlORprEycEWSeTn8xkA/GYEsqp02edU.jpg",
+      "photo": "https://sun9-53.userapi.com/7KfK-Y4MowlrKZp0t-w-wBmhCSYIvQM9oC3OwQ/7JYkzPfroGc.jpg",
       "status": true
     },
     {
@@ -58,6 +58,36 @@
         "time": "12:30"
       },
       "photo": "https://sun9-37.userapi.com/0gGyrCXgKOAzMGzqtWtBlORprEycEWSeTn8xkA/GYEsqp02edU.jpg",
+      "status": true
+    },
+    {
+      "nameDoctor": "Харьков В. С.",
+      "branch": "Терапевтическое отделение",
+      "clinic": {
+        "name": "СПБ ГБУЗ \"Городская поликлиника №25\" ",
+        "address": "пр. Солидарности, д. 1, к. 1, лит. А"
+      },
+      "date": {
+        "day of week": "Четверг",
+        "number": "09.07.20",
+        "time": "10:00"
+      },
+      "photo": "https://sun9-37.userapi.com/0gGyrCXgKOAzMGzqtWtBlORprEycEWSeTn8xkA/GYEsqp02edU.jpg",
+      "status": true
+    },
+    {
+      "nameDoctor": "Малушко Т. Н.",
+      "branch": "Терапевтическое отделение",
+      "clinic": {
+        "name": "СПБ ГБУЗ \"Городская поликлиника №25\" ",
+        "address": "пр. Солидарности, д. 1, к. 1, лит. А"
+      },
+      "date": {
+        "day of week": "Среда",
+        "number": "15.07.20",
+        "time": "18:10"
+      },
+      "photo": "https://sun9-53.userapi.com/7KfK-Y4MowlrKZp0t-w-wBmhCSYIvQM9oC3OwQ/7JYkzPfroGc.jpg",
       "status": true
     }
   ]

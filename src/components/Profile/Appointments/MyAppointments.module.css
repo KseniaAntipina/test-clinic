@@ -1,0 +1,31 @@
+.myappointments {
+    padding: 18px 40px 18px 18px;
+}
+
+.prev {
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.prev span {
+    padding-left: 13px;
+    font-size: 16px;
+    color: #000;
+}
+
+.prev a {
+    text-decoration: none;
+}
+
+.myappointmentsAll .appointments {
+    margin-right: 0;
+}
+
+.myscroll{
+    background: #EBE7FF!important;
+}
+
+.myscrollThumb {
+    background: #003B72 !important;
+    display: block;
+}

@@ -1,7 +1,6 @@
 import React from 'react';
 import LastAppointments from './LastAppointments'
 
-
 class LastAppointmentsContainer extends React.Component {
 
     constructor(props) {
@@ -26,7 +25,7 @@ class LastAppointmentsContainer extends React.Component {
     render() {
         const {items} = this.state;
         return (
-            <LastAppointments items={items}/>
+                <LastAppointments items={items} />
         );
     }
 }
