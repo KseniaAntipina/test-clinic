@@ -15,7 +15,7 @@ const ElectronicCard = (props) => {
                         </svg>
                     </div>
                     <div className={styles.cardContent}>
-                        <h2>Информация о пациенте</h2>
+                        <h2><a href="javascript:void(0)">Информация о пациенте</a></h2>
                         <hr/>
                         <ul>
                             <li><span>Ваши личные данные</span></li>
@@ -31,7 +31,7 @@ const ElectronicCard = (props) => {
                         </svg>
                     </div>
                     <div className={styles.cardContent}>
-                        <h2>Результаты анализов</h2>
+                        <h2><a href="javascript:void(0)">Результаты анализов</a></h2>
                         <hr/>
                         <p>Вы можете узнать здесь результаты своих анализов</p>
                     </div>
@@ -43,7 +43,7 @@ const ElectronicCard = (props) => {
                         </svg>
                     </div>
                     <div className={styles.cardContent}>
-                        <h2>Добавить информацию</h2>
+                        <h2><a href="javascript:void(0)">Добавить информацию</a></h2>
                         <hr/>
                         <p>Добавляйте в свою электронную медицинскую карту новые данные</p>
                     </div>
@@ -55,7 +55,7 @@ const ElectronicCard = (props) => {
                         </svg>
                     </div>
                     <div className={styles.cardContent}>
-                        <h2>История приемов</h2>
+                        <h2><a href="javascript:void(0)">История приемов</a></h2>
                         <hr/>
                         <p>Вся информация о полученных услугах за все время хранится здесь</p>
                     </div>

@@ -2,6 +2,9 @@
     padding: 18px 40px 18px 18px;
 }
 
+.myappointmentsContent {
+    display: flex;
+}
 .prev {
     padding-left: 20px;
     padding-bottom: 20px;
@@ -23,6 +26,7 @@
 
 .myscroll{
     background: #EBE7FF!important;
+    top: 0 !important;
 }
 
 .myscrollThumb {

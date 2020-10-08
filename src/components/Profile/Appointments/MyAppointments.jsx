@@ -3,8 +3,7 @@ import styles from './MyAppointments.module.css'
 import {NavLink} from "react-router-dom";
 import Appointment from "./Appointment/Appointment";
 import Scrollbar from "react-scrollbars-custom";
-import {Calendar} from "react-calendar";
-import MyCalendar from "./Calendar/Calendar";
+import Calendar from "./Calendar/Calendar";
 
 const MyAppointments = (props) => {
 
@@ -20,26 +19,30 @@ const MyAppointments = (props) => {
                     <span>Мои записи</span>
                 </NavLink>
             </div>
-            <Scrollbar style={{width: 500, height: 700}}
-                       trackYProps={{
-                           renderer: props => {
-                               const {elementRef, ...restProps} = props;
-                               return <span {...restProps} ref={elementRef} className={styles.myscroll}/>;
-                           }
-                       }}
-                       thumbYProps={{
-                           renderer: props => {
-                               const {elementRef, ...restProps} = props;
-                               return <span {...restProps} ref={elementRef} className={styles.myscrollThumb}/>;
-                           }
-                       }}>
-                <div className={styles.myappointmentsAll}>
-                    <Appointment items={props.items}/>
+            <div className={styles.myappointmentsContent}>
+                <div className={styles.listAppointments}>
+
+                    <Scrollbar style={{width: 500, height: 700}}
+                               trackYProps={{
+                                   renderer: props => {
+                                       const {elementRef, ...restProps} = props;
+                                       return <span {...restProps} ref={elementRef} className={styles.myscroll}/>;
+                                   }
+                               }}
+                               thumbYProps={{
+                                   renderer: props => {
+                                       const {elementRef, ...restProps} = props;
+                                       return <span {...restProps} ref={elementRef} className={styles.myscrollThumb}/>;
+                                   }
+                               }}>
+                        <div className={styles.myappointmentsAll}>
+                            <Appointment items={props.items}/>
+                        </div>
+                    </Scrollbar>
                 </div>
-                <div>
-                    <MyCalendar/>
-                </div>
-            </Scrollbar>
+                <Calendar/>
+            </div>
+
         </div>
     )
 }
