@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/test-clinic/static/css/main.29358676.chunk.css",
+    "main.js": "/test-clinic/static/js/main.c092194b.chunk.js",
+    "main.js.map": "/test-clinic/static/js/main.c092194b.chunk.js.map",
+    "runtime-main.js": "/test-clinic/static/js/runtime-main.b6099bdc.js",
+    "runtime-main.js.map": "/test-clinic/static/js/runtime-main.b6099bdc.js.map",
+    "static/js/2.96690bfc.chunk.js": "/test-clinic/static/js/2.96690bfc.chunk.js",
+    "static/js/2.96690bfc.chunk.js.map": "/test-clinic/static/js/2.96690bfc.chunk.js.map",
+    "index.html": "/test-clinic/index.html",
+    "precache-manifest.f6eb25346e4400f378701ac404a1bb3a.js": "/test-clinic/precache-manifest.f6eb25346e4400f378701ac404a1bb3a.js",
+    "service-worker.js": "/test-clinic/service-worker.js",
+    "static/css/main.29358676.chunk.css.map": "/test-clinic/static/css/main.29358676.chunk.css.map",
+    "static/js/2.96690bfc.chunk.js.LICENSE.txt": "/test-clinic/static/js/2.96690bfc.chunk.js.LICENSE.txt",
+    "static/media/bell.svg": "/test-clinic/static/media/bell.81f07cf9.svg",
+    "static/media/Header.module.css": "/test-clinic/static/media/dropdownMenu.3bda7792.svg",
+    "static/media/search.svg": "/test-clinic/static/media/search.0bb55422.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b6099bdc.js",
+    "static/js/2.96690bfc.chunk.js",
+    "static/css/main.29358676.chunk.css",
+    "static/js/main.c092194b.chunk.js"
+  ]
+}
